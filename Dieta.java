@@ -1,20 +1,18 @@
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.Vector;
 
 public class Dieta {
 	static int Massa;
 
 	public static void main (String args []) throws Exception {
 			Scanner d = new Scanner(System.in);
-			System.out.println("‚ведите массу");
+			System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ");
 			try {
 				Massa=MyException.Get(d.nextInt());
 			} catch (InputMismatchException e){
-				System.out.println("‚ы ввели не число");
+				System.out.println("пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ");
 			} catch (MyException e) {
-				System.out.println("—исло не может быть отрицательным") ;
+				System.out.println("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ") ;
 			}
 			//System.out.println(Massa);
 	}
