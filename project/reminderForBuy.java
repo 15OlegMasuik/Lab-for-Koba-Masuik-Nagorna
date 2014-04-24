@@ -1,4 +1,4 @@
-public class Reminder for Buy {
+public class ReminderForBuy {
 
   public void Reminderbuy() {
   }
